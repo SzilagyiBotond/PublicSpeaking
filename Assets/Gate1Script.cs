@@ -4,6 +4,7 @@ public class Gate1Script : MonoBehaviour
 {
     public LogicScript logic;
     private BoxCollider boxCollider;
+    public LayerMask whatIsPlayerLayer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -18,7 +19,11 @@ public class Gate1Script : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        logic.MoveInstruction();
-        boxCollider.enabled = false;
+        if (((1 << other.gameObject.layer) & whatIsPlayerLayer) != 0)
+        {
+            logic.MoveInstruction(); // Execute logic if the condition is met
+            this.enabled = false;
+            GetComponent<BoxCollider>().enabled = false; // Disable the collider
+        }
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 public class Level1Script : MonoBehaviour
 {
     public LogicScript logic;
+    public LayerMask whatIsPlayerLayer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -17,9 +18,12 @@ public class Level1Script : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        MeshRenderer meshRenderer = GetComponent<MeshRenderer>();
-        meshRenderer.enabled = false; 
-        logic.disableMovement();
-        logic.Level1Instruction();
+        if (((1 << other.gameObject.layer) & whatIsPlayerLayer) != 0)
+        {
+            MeshRenderer meshRenderer = GetComponent<MeshRenderer>();
+            meshRenderer.enabled = false;
+            logic.disableMovement();
+            logic.Level1Instruction();
+        }
     }
 }

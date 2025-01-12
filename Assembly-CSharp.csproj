@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\ScaleFromMicrophone.cs" />
     <Compile Include="Assets\Level1Script.cs" />
+    <Compile Include="Assets\Throwing.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\AudioLoudnessDetection.cs" />
     <Compile Include="Assets\Level2Script.cs" />
