@@ -13,6 +13,12 @@ public class LogicScript : MonoBehaviour
     {
         instructionText.text = "Today is your big day. Move to your classroom and start your speech.";
     }
+
+    [ContextMenu("Level 2_3 Instruction")]
+    public void Level2_3Instruction()
+    {
+        instructionText.text = "Nice work, you are getting good at this. You have one more task.";
+    }
     [ContextMenu("Move Instruction")]
     public void MoveInstruction()
     {
@@ -23,6 +29,13 @@ public class LogicScript : MonoBehaviour
     {
         instructionText.text = "Do not be shy, speak loud!";
     }
+
+    [ContextMenu("Level 1 warning on silence")]
+    public void Level1Warning()
+    {
+        instructionText.text = "You're getting good at it, don't stop.";
+    }
+
     [ContextMenu("Level 2 Instruction")]
     public void Level2Instruction()
     {
@@ -51,6 +64,7 @@ public class LogicScript : MonoBehaviour
         GameObject caffDoorB = GameObject.FindGameObjectWithTag("CaffDoorB");
         caffDoorA.SetActive(false);
         caffDoorB.SetActive(false);
+        Destroy(GameObject.FindGameObjectWithTag("CubeLevel1"));
         //MeshRenderer meshRendererCaffDoorA = GameObject.FindGameObjectWithTag("CaffDoorA").GetComponent<MeshRenderer>(); 
         //MeshCollider meshColliderCaffDoorA = GameObject.FindGameObjectWithTag("CaffDoorA").GetComponent<MeshCollider>();
         //MeshRenderer meshRendererCaffDoorB = GameObject.FindGameObjectWithTag("CaffDoorB").GetComponent<MeshRenderer>();
@@ -62,6 +76,10 @@ public class LogicScript : MonoBehaviour
         //meshRendererCaffDoorB.enabled = false;
     }
 
+    public void Level2Complete()
+    {
+        enableMovement();
 
+    }
 
 }

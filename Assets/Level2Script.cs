@@ -1,7 +1,6 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
-public class Level1Script : MonoBehaviour
+public class Level2Script : MonoBehaviour
 {
     public LogicScript logic;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -15,11 +14,13 @@ public class Level1Script : MonoBehaviour
     {
         
     }
+
     private void OnTriggerEnter(Collider other)
     {
         MeshRenderer meshRenderer = GetComponent<MeshRenderer>();
-        meshRenderer.enabled = false; 
+        meshRenderer.enabled = false;
+
         logic.disableMovement();
-        logic.Level1Instruction();
+        logic.Level2Instruction();
     }
 }
