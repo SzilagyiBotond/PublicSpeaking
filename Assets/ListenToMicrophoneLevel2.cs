@@ -37,7 +37,7 @@ public class ListenToMicrophoneLevel2 : MonoBehaviour
             if (timeToSpeak > 20f && silenceTime >= silenceDurationToStop)
             {
                 Debug.Log("Silence detected for 3 seconds");
-                logic.Level1Complete();
+                logic.Level2Complete();
             }
             else if (timeToSpeak < 20f && silenceTime >= silenceDurationToWarn)
             {

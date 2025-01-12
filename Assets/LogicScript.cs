@@ -24,16 +24,22 @@ public class LogicScript : MonoBehaviour
     {
         instructionText.text = "Move to the green box and start the speech";
     }
-    [ContextMenu("Level 1 instruction")]
+    [ContextMenu("Level 1 Instruction")]
     public void Level1Instruction()
     {
         instructionText.text = "Do not be shy, speak loud!";
     }
 
-    [ContextMenu("Level 1 warning on silence")]
+    [ContextMenu("Level 1 Warning on silence")]
     public void Level1Warning()
     {
         instructionText.text = "You're getting good at it, don't stop.";
+    }
+
+    [ContextMenu("Level 2 Warning on silence")]
+    public void Level2Warning()
+    {
+        instructionText.text = "Keep up the good work, you can do it.";
     }
 
     [ContextMenu("Level 2 Instruction")]
@@ -76,10 +82,12 @@ public class LogicScript : MonoBehaviour
         //meshRendererCaffDoorB.enabled = false;
     }
 
+    [ContextMenu("Level 2 complete")]
     public void Level2Complete()
     {
         enableMovement();
-
+        Level2_3Instruction();
+        Destroy(GameObject.FindGameObjectWithTag("CubeLevel2"));
     }
 
 }
