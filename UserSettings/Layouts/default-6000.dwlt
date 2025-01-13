@@ -322,7 +322,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 20fbffff80b00000
+      m_ExpandedIDs: 4469feffdeedfeff9472ffff20fbfffff0e600009ae70000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -900,7 +900,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 11.149623, y: 1.1464581, z: -1.8153143}
     speed: 2
-    m_Value: {x: 11.149623, y: 1.1464581, z: -1.8153143}
+    m_Value: {x: 9.05, y: 1.5300001, z: -28.296}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -952,7 +952,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 1.8277804
     speed: 2
-    m_Value: 1.8277804
+    m_Value: 1.6420356
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1007,7 +1007,7 @@ MonoBehaviour:
     x: 220.8
     y: 79.200005
     width: 950.8
-    height: 475.6
+    height: 474.8
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1062,22 +1062,22 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 950.8
-      height: 454.6
-    m_Scale: {x: 0.3946181, y: 0.39461806}
-    m_Translation: {x: 475.40002, y: 227.3}
+      height: 453.8
+    m_Scale: {x: 0.3939236, y: 0.3939236}
+    m_Translation: {x: 475.4, y: 226.9}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1204.7091
+      x: -1206.833
       y: -576
-      width: 2409.4182
+      width: 2413.666
       height: 1152
     m_MinimalGUI: 1
-  m_defaultScale: 0.39461806
-  m_LastWindowPixelSize: {x: 950.8, y: 475.6}
+  m_defaultScale: 0.3939236
+  m_LastWindowPixelSize: {x: 950.8, y: 474.8}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -1203,7 +1203,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1213,16 +1213,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\III\Virtual Reality\PublicSpeaking
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: dad00000
-    m_LastClickedID: 53466
-    m_ExpandedIDs: 0000000066ce000068ce00006ace00006cce00006ece000070ce000072ce000074ce000076ce000078ce00007ace00007cce00007ece000080ce000082ce000084ce000086ce000088ce00008ace0000
+    scrollPos: {x: 0, y: 106}
+    m_SelectedIDs: 08d10000
+    m_LastClickedID: 53512
+    m_ExpandedIDs: 000000008ece000090ce000092ce000094ce000096ce000098ce00009ace00009cce00009ece0000a0ce0000a2ce0000a4ce0000a6ce0000a8ce0000aace0000acce0000aece0000b0ce0000b2ce0000b4ce0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1251,7 +1251,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000066ce000068ce00006ace00006cce00006ece000070ce000072ce000074ce000076ce000078ce00007ace00007cce00007ece000080ce000082ce000084ce000086ce000088ce00008ace0000
+    m_ExpandedIDs: 000000008ece000090ce000092ce000094ce000096ce000098ce00009ace00009cce00009ece0000a0ce0000a2ce0000a4ce0000a6ce0000a8ce0000aace0000acce0000aece0000b0ce0000b2ce0000b4ce0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1305,7 +1305,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 64}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 199
