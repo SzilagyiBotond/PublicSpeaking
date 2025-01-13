@@ -5,9 +5,10 @@ public class PlayerCam : MonoBehaviour
     public float sensX;
     public float sensY;
     public Transform orientation;
-
+    public Transform ball;
     float xRotation;
     float yRotation;
+    public Vector3 ballOffset = new Vector3(0, -1, 2);
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -27,5 +28,13 @@ public class PlayerCam : MonoBehaviour
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
         transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
         orientation.rotation = Quaternion.Euler(0, yRotation, 0);
+        UpdateBallPosition();
+    }
+
+    void UpdateBallPosition()
+    {
+        // Calculate the target position for the ball relative to the camera
+        Vector3 targetPosition = transform.position + transform.rotation * ballOffset;
+        ball.position = targetPosition;
     }
 }

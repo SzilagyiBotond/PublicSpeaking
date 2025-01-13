@@ -1,14 +1,12 @@
 using UnityEngine;
 
-public class Gate2Script : MonoBehaviour
+public class Level2Script : MonoBehaviour
 {
     public LogicScript logic;
-    private BoxCollider boxCollider;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
-        boxCollider = GetComponent<BoxCollider>();
     }
 
     // Update is called once per frame
@@ -16,9 +14,13 @@ public class Gate2Script : MonoBehaviour
     {
         
     }
+
     private void OnTriggerEnter(Collider other)
     {
-        logic.MoveInstruction();
-        boxCollider.enabled = false;
+        MeshRenderer meshRenderer = GetComponent<MeshRenderer>();
+        meshRenderer.enabled = false;
+
+        logic.disableMovement();
+        logic.Level2Instruction();
     }
 }

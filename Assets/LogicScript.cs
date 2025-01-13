@@ -16,16 +16,35 @@ public class LogicScript : MonoBehaviour
     {
         instructionText.text = "Today is your big day. Move to your classroom and start your speech.";
     }
+
+    [ContextMenu("Level 2_3 Instruction")]
+    public void Level2_3Instruction()
+    {
+        instructionText.text = "Nice work, you are getting good at this. You have one more task.";
+    }
     [ContextMenu("Move Instruction")]
     public void MoveInstruction()
     {
         instructionText.text = "Move to the green box and start the speech";
     }
-    [ContextMenu("Level 1 instruction")]
+    [ContextMenu("Level 1 Instruction")]
     public void Level1Instruction()
     {
         instructionText.text = "Do not be shy, speak loud!";
     }
+
+    [ContextMenu("Level 1 Warning on silence")]
+    public void Level1Warning()
+    {
+        instructionText.text = "You're getting good at it, don't stop.";
+    }
+
+    [ContextMenu("Level 2 Warning on silence")]
+    public void Level2Warning()
+    {
+        instructionText.text = "Keep up the good work, you can do it.";
+    }
+
     [ContextMenu("Level 2 Instruction")]
     public void Level2Instruction()
     {
@@ -54,6 +73,7 @@ public class LogicScript : MonoBehaviour
         GameObject caffDoorB = GameObject.FindGameObjectWithTag("CaffDoorB");
         caffDoorA.SetActive(false);
         caffDoorB.SetActive(false);
+        Destroy(GameObject.FindGameObjectWithTag("CubeLevel1"));
         //MeshRenderer meshRendererCaffDoorA = GameObject.FindGameObjectWithTag("CaffDoorA").GetComponent<MeshRenderer>(); 
         //MeshCollider meshColliderCaffDoorA = GameObject.FindGameObjectWithTag("CaffDoorA").GetComponent<MeshCollider>();
         //MeshRenderer meshRendererCaffDoorB = GameObject.FindGameObjectWithTag("CaffDoorB").GetComponent<MeshRenderer>();
@@ -65,6 +85,12 @@ public class LogicScript : MonoBehaviour
         //meshRendererCaffDoorB.enabled = false;
     }
 
-
+    [ContextMenu("Level 2 complete")]
+    public void Level2Complete()
+    {
+        enableMovement();
+        Level2_3Instruction();
+        Destroy(GameObject.FindGameObjectWithTag("CubeLevel2"));
+    }
 
 }
