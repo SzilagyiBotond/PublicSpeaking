@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\III\\Virtual Reality\\PublicSpeaking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3DE386EB-8DE1-D1CF-7086-3B9C335215AE}|Assembly-CSharp.csproj|D:\\III\\Virtual Reality\\PublicSpeaking\\assets\\level1script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DE386EB-8DE1-D1CF-7086-3B9C335215AE}|Assembly-CSharp.csproj|solutionrelative:assets\\level1script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DE386EB-8DE1-D1CF-7086-3B9C335215AE}|Assembly-CSharp.csproj|D:\\III\\Virtual Reality\\PublicSpeaking\\assets\\gate1script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DE386EB-8DE1-D1CF-7086-3B9C335215AE}|Assembly-CSharp.csproj|solutionrelative:assets\\gate1script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DE386EB-8DE1-D1CF-7086-3B9C335215AE}|Assembly-CSharp.csproj|D:\\III\\Virtual Reality\\PublicSpeaking\\assets\\logicscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DE386EB-8DE1-D1CF-7086-3B9C335215AE}|Assembly-CSharp.csproj|solutionrelative:assets\\logicscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DE386EB-8DE1-D1CF-7086-3B9C335215AE}|Assembly-CSharp.csproj|D:\\III\\Virtual Reality\\PublicSpeaking\\assets\\tutorialinfo\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DE386EB-8DE1-D1CF-7086-3B9C335215AE}|Assembly-CSharp.csproj|solutionrelative:assets\\tutorialinfo\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DE386EB-8DE1-D1CF-7086-3B9C335215AE}|Assembly-CSharp.csproj|d:\\iii\\virtual reality\\publicspeaking\\assets\\tutorialinfo\\scripts\\playercam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DE386EB-8DE1-D1CF-7086-3B9C335215AE}|Assembly-CSharp.csproj|solutionrelative:assets\\tutorialinfo\\scripts\\playercam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DE386EB-8DE1-D1CF-7086-3B9C335215AE}|Assembly-CSharp.csproj|D:\\III\\Virtual Reality\\PublicSpeaking\\assets\\throwing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DE386EB-8DE1-D1CF-7086-3B9C335215AE}|Assembly-CSharp.csproj|solutionrelative:assets\\throwing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DE386EB-8DE1-D1CF-7086-3B9C335215AE}|Assembly-CSharp.csproj|D:\\III\\Virtual Reality\\PublicSpeaking\\assets\\tutorialinfo\\scripts\\movecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DE386EB-8DE1-D1CF-7086-3B9C335215AE}|Assembly-CSharp.csproj|solutionrelative:assets\\tutorialinfo\\scripts\\movecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\iii\\virtual reality\\publicspeaking\\assets\\ballscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\ballscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BallScript.cs",
+              "DocumentMoniker": "D:\\III\\Virtual Reality\\PublicSpeaking\\Assets\\BallScript.cs",
+              "RelativeDocumentMoniker": "Assets\\BallScript.cs",
+              "ToolTip": "D:\\III\\Virtual Reality\\PublicSpeaking\\Assets\\BallScript.cs",
+              "RelativeToolTip": "Assets\\BallScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T19:31:57.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Throwing.cs",
+              "DocumentMoniker": "D:\\III\\Virtual Reality\\PublicSpeaking\\Assets\\Throwing.cs",
+              "RelativeDocumentMoniker": "Assets\\Throwing.cs",
+              "ToolTip": "D:\\III\\Virtual Reality\\PublicSpeaking\\Assets\\Throwing.cs",
+              "RelativeToolTip": "Assets\\Throwing.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwC0AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T18:51:27.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Level1Script.cs",
+              "DocumentMoniker": "D:\\III\\Virtual Reality\\PublicSpeaking\\Assets\\Level1Script.cs",
+              "RelativeDocumentMoniker": "Assets\\Level1Script.cs",
+              "ToolTip": "D:\\III\\Virtual Reality\\PublicSpeaking\\Assets\\Level1Script.cs",
+              "RelativeToolTip": "Assets\\Level1Script.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T21:03:02.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Gate1Script.cs",
+              "DocumentMoniker": "D:\\III\\Virtual Reality\\PublicSpeaking\\Assets\\Gate1Script.cs",
+              "RelativeDocumentMoniker": "Assets\\Gate1Script.cs",
+              "ToolTip": "D:\\III\\Virtual Reality\\PublicSpeaking\\Assets\\Gate1Script.cs",
+              "RelativeToolTip": "Assets\\Gate1Script.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T20:31:02.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogicScript.cs",
+              "DocumentMoniker": "D:\\III\\Virtual Reality\\PublicSpeaking\\Assets\\LogicScript.cs",
+              "RelativeDocumentMoniker": "Assets\\LogicScript.cs",
+              "ToolTip": "D:\\III\\Virtual Reality\\PublicSpeaking\\Assets\\LogicScript.cs",
+              "RelativeToolTip": "Assets\\LogicScript.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAASwDQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T20:18:50.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "D:\\III\\Virtual Reality\\PublicSpeaking\\Assets\\TutorialInfo\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\TutorialInfo\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "D:\\III\\Virtual Reality\\PublicSpeaking\\Assets\\TutorialInfo\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\TutorialInfo\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwBMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T15:47:25.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerCam.cs",
+              "DocumentMoniker": "D:\\III\\Virtual Reality\\PublicSpeaking\\Assets\\TutorialInfo\\Scripts\\PlayerCam.cs",
+              "RelativeDocumentMoniker": "Assets\\TutorialInfo\\Scripts\\PlayerCam.cs",
+              "ToolTip": "D:\\III\\Virtual Reality\\PublicSpeaking\\Assets\\TutorialInfo\\Scripts\\PlayerCam.cs",
+              "RelativeToolTip": "Assets\\TutorialInfo\\Scripts\\PlayerCam.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T15:36:11.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MoveCamera.cs",
+              "DocumentMoniker": "D:\\III\\Virtual Reality\\PublicSpeaking\\Assets\\TutorialInfo\\Scripts\\MoveCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\TutorialInfo\\Scripts\\MoveCamera.cs",
+              "ToolTip": "D:\\III\\Virtual Reality\\PublicSpeaking\\Assets\\TutorialInfo\\Scripts\\MoveCamera.cs",
+              "RelativeToolTip": "Assets\\TutorialInfo\\Scripts\\MoveCamera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T15:32:06.232Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
