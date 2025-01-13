@@ -3,6 +3,9 @@ using UnityEngine.UI;
 public class LogicScript : MonoBehaviour
 {
     public Text instructionText;
+    public Transform targetDoorLevel1;
+
+    public Transform human1;
     [ContextMenu("Level 1_2 Instruction")]
     public void Level1_2Instruction()
     {
