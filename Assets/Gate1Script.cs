@@ -22,8 +22,7 @@ public class Gate1Script : MonoBehaviour
         if (((1 << other.gameObject.layer) & whatIsPlayerLayer) != 0)
         {
             logic.MoveInstruction(); // Execute logic if the condition is met
-            this.enabled = false;
-            GetComponent<BoxCollider>().enabled = false; // Disable the collider
+            GameObject.Destroy(gameObject);
         }
     }
 }
