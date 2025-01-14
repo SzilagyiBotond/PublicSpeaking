@@ -64,11 +64,13 @@
     <Compile Include="Assets\ScaleFromMicrophone.cs" />
     <Compile Include="Assets\Level1Script.cs" />
     <Compile Include="Assets\Throwing.cs" />
+    <Compile Include="Assets\SchoolGateScript.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\AiNavigationScript.cs" />
     <Compile Include="Assets\AudioLoudnessDetection.cs" />
     <Compile Include="Assets\DoublePendulumPhysics.cs" />
     <Compile Include="Assets\Level2Script.cs" />
+    <Compile Include="Assets\FanRotation.cs" />
     <Compile Include="Assets\BallLifeCycleScript.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\MoveCamera.cs" />
     <Compile Include="Assets\LogicScript.cs" />
