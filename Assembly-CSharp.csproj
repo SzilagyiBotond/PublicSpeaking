@@ -67,9 +67,10 @@
     <Compile Include="Assets\TutorialInfo\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\AiNavigationScript.cs" />
     <Compile Include="Assets\AudioLoudnessDetection.cs" />
+    <Compile Include="Assets\DoublePendulumPhysics.cs" />
     <Compile Include="Assets\Level2Script.cs" />
+    <Compile Include="Assets\BallLifeCycleScript.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\MoveCamera.cs" />
-    <Compile Include="Assets\Scenes\NewMonoBehaviourScript.cs" />
     <Compile Include="Assets\LogicScript.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Gate2Script.cs" />
