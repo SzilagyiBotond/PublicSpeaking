@@ -16,10 +16,10 @@ public class AiNavigationScript : MonoBehaviour
     private int current = 0;
 
     [SerializeField]
-    private float moveSpeed = 0.01f; // Adjust the speed as needed.
+    private float moveSpeed = 5f; // Adjust the speed as needed.
 
     [SerializeField]
-    private float rotationSpeed = 10f;
+    private float rotationSpeed = 20f;
 
     public bool StartMoving = false;
     void Start()
