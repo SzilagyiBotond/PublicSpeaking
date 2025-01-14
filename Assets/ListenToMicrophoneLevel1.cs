@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class ListenToMicrophoneLevel1 : MonoBehaviour
@@ -9,27 +10,56 @@ public class ListenToMicrophoneLevel1 : MonoBehaviour
     public float silenceDurationToWarn = 2.0f;
     public float timeToSpeak = 0f;
     public float silenceTime = 0f;
-    
+    private int humanCounter = 0;
+    private List<AiNavigationScript> aiNavigationScripts;
+    public LayerMask whatIsPlayerLayer;
 
     private bool startCounting = false;
+    private bool startListening = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
+        aiNavigationScripts = new List<AiNavigationScript>
+        {
+            GameObject.FindGameObjectWithTag("Human1").GetComponent<AiNavigationScript>(),
+            GameObject.FindGameObjectWithTag("Human0").GetComponent<AiNavigationScript>(),
+            GameObject.FindGameObjectWithTag("Human4").GetComponent<AiNavigationScript>(),
+            GameObject.FindGameObjectWithTag("Human25").GetComponent<AiNavigationScript>(),
+            GameObject.FindGameObjectWithTag("Human6").GetComponent<AiNavigationScript>(),
+            GameObject.FindGameObjectWithTag("Human3").GetComponent<AiNavigationScript>(),
+        };
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!startCounting)
+        if (!startListening)
         {
             return;
         }
         float loudness = detector.GetLoudnessFromMicrophone();
+        if (!startCounting)
+        {
+            if (loudness > silenceThreshold)
+            {
+                startCounting = true;
+            }
+            else
+            {
+                return;
+            }
+        }
+        
         if (timeToSpeak < 20f)
         {
             timeToSpeak += Time.deltaTime;
+        }
+        if (humanCounter < aiNavigationScripts.Count && timeToSpeak >= (humanCounter + 1) * 2)
+        {
+            aiNavigationScripts[humanCounter].StartMoving = true;
+            humanCounter++;
         }
         if (loudness < silenceThreshold)
         {
@@ -52,6 +82,9 @@ public class ListenToMicrophoneLevel1 : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        startCounting = true;
+        if (((1 << other.gameObject.layer) & whatIsPlayerLayer) != 0)
+        {
+            startListening = true;
+        }
     }
 }
