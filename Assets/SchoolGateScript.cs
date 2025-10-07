@@ -3,6 +3,7 @@ using UnityEngine;
 public class SchoolGateScript : MonoBehaviour
 {
     public LayerMask whatIsPlayerLayer;
+    public GameObject schoolClosedDoor;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,7 +23,8 @@ public class SchoolGateScript : MonoBehaviour
         {
             GameObject.FindGameObjectWithTag("SchoolOpenDoorA").SetActive(false);
             GameObject.FindGameObjectWithTag("SchoolOpenDoorB").SetActive(false);
-            GameObject.FindGameObjectWithTag("SchoolClosedDoor").SetActive(true);
+            //GameObject.FindGameObjectWithTag("SchoolClosedDoor").SetActive(true);
+            schoolClosedDoor.SetActive(true);
             GameObject.Destroy(gameObject);
         }
     }

@@ -10,7 +10,7 @@ public class DoublePendulumPhysics : MonoBehaviour
     public float secondRodInitialForce = 3f;
 
     public float firstRodInitialTorque = 2f;
-    public float secondRodInitialTorque = 2f;
+    public float secondRodInitialTorque = 5f;
 
     void Start()
     {

@@ -17,7 +17,7 @@ public class LogicScript : MonoBehaviour
     [ContextMenu("Level 2_3 Instruction")]
     public void Level2_3Instruction()
     {
-        instructionText.text = "Nice work, you are getting good at this. You have one more task.";
+        instructionText.text = "Nice work, you did really well, we are so proud of you!";
     }
     [ContextMenu("Move Instruction")]
     public void MoveInstruction()
